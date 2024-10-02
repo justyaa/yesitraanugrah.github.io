@@ -1,91 +1,68 @@
 <html>
-    <head>
-        <title>Web Pertemuan 2</title>
-    </head>
-    <style> 
+<head>
+    <title>CV Yesitra Anugrah Auliya</title>
+    <style>
         body {
-            background-color: grey;
+            background-color: #F5F5DC;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #D2B48C;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        li {
+            list-style-type: square;
+            margin-bottom: 5px;
         }
     </style>
-    <body>
-        <!-- ini untuk uppercase -->
-        Hello World!<br>
-        Nama saya <b>Yesitra</b> <u>Anugrah</u>
-        <p>
-            Tempat Lahir di <b><i>Arab</i></b>
-        </p>
-        <p>
-            <b><i><u>ini campur bold italalic underline</u></i></b>
-        </p>
-        <p style="color: #31d5c5; font-size: 24; font-family: monospace;" > 
-            ini text berwarna
-        </p>
-        <h1>Heading1</h1>
-        <h2>Heading2</h2>
-        <h3>Heading3</h3>
-        <h4>Heading4</h4>
-        <h5>Heading5</h5>
-        <a href="http://google.com" target="_blank">Ini memuju google</a>
+</head>
+<body>
+    <div class="container">
+        <h1>Curriculum Vitae</h1>
+        
+        <img src="cv.JPG" alt="Foto Profil" style="display: block; margin: 0 auto; border-radius: 50%; width: 175px; height: auto; border: 2px solid #34495e;">
 
-        <br></br>
-        Yang mau nitip minum
-        <ul style="list-style: georgian;">
-            <li>Yesi - es teh manis</li>
-            <li>Mikha - kopi gula aren</li>
-            <li>Anes - matcha latte</li>
+        <h2>Data Pribadi</h2>
+        <p>Nama: Yesitra Anugrah Auliya</p>
+        <p>Tempat, Tanggal Lahir: Tasikmalaya, 25 Mei 2024</p>
+        <p>Email: yesitra25@gmail.com</p>
+        <p>Alamat: Kost Kirana 2, Sukabirus Dayeuhkolot Kab Bandung</p>
+        
+        <h2>Data Pendidikan</h2>
+        <p>SMA              : SMAN 42 Jakarta (2019-2022)</p>
+        <p>Perguruan Tinggi : Telkom University (2022-Sekarang)</p>
+        
+        <h2>Skills</h2>
+        <ul>
+            <li>Microsoft Word, Microsoft Excel, Microsoft Power Point</li>
+            <li>Python, SQL, Java</li>
+            <li>Canva, Adobe Illustrator</li>
         </ul>
-       
-        <br></br>
-        Foto jahim jmetz
-        <br>
-        <img src="foto.JPG" width="200px">
-
-        <br></br>
-        <table border="1" width="100%" style="text-align: center;">
-            <tr height = "50px">
-                <td><img src="foto2.png" width="100px"></td>
-                <td>baris 1 kolom b</td>
-                <td>baris 1 kolom c</td>
-            </tr>
-            <tr>
-                <td><b>baris 2 kolom a</b></td>
-                <td><i>baris 2 kolom b</i></td>
-                <td><u>baris 2 kolom c</u></td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td colspan="2">2</td>
-            </tr>
-            <tr>
-                <td rowspan="2">merge</td>
-                <td>5</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>6</td>
-            </tr>
-        </table>
-        <br>
-        </br>
-        <form action="save.html">
-            <input type="text" placeholder="input nama"><br>
-            <input type="number" placeholder="input umur"><br>
-            <input type="password" placeholder="input password"><br>
-            <textarea placeholder="input alamat" rows="5"></textarea>
-            <br>
-            <input type="radio" id="lakilaki" name="jenis_kelamin">
-            <label for="lakilaki">Laki-laki</label>
-            <input type="radio" id="perempuan" name="jenis_kelamin">
-            <label for="perempuan">Perempuan</label><br>
-
-            <select>
-                <option value="lakilaki">Laki-laki</option>
-                <option value="perempuan">Perempuan</option>
-            </select>
-
-            <button type="submit">Save</button>
-            <button type="button" onclick="alert('anda batal');">Batal</button>
-        </form>
-    </body>
+        
+        <h2>Pengalaman</h2>
+        <ul>
+            <li><strong>EDM Laboratory</strong> - Kompetisi & Event (2024 - Sekarang)</li>
+            <li><strong>Koalisi</strong> - CPR (2024 - Sekarang)</li>
+        </ul>
+    </div>
+</body>
 </html>
